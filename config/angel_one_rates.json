@@ -1,0 +1,90 @@
+{
+  "broker_name": "Angel One",
+  "broker_code": "ANGELONE",
+  "brokerage_plans": {
+    "standard": {
+      "id": "standard",
+      "name": "Angel One iTrade Prime (Standard)",
+      "rate_per_executed_order": "20.00",
+      "currency": "INR",
+      "description": "Standard flat ₹20 per executed order across all F&O segments."
+    },
+    "introductory_zero": {
+      "id": "introductory_zero",
+      "name": "Angel One Promotional (Zero Brokerage)",
+      "rate_per_executed_order": "0.00",
+      "currency": "INR",
+      "description": "Eligible introductory new-user promotional offer (₹0 brokerage; statutory charges apply)."
+    }
+  },
+  "gst_rate": "0.18",
+  "sebi_turnover_charge_rate": "0.000001",
+  "stamp_duty_rates": {
+    "Index Futures": "0.00002",
+    "Stock Futures": "0.00002",
+    "Index Options": "0.00003",
+    "Stock Options": "0.00003"
+  },
+  "exchange_transaction_charge_rates": {
+    "NSE": {
+      "Index Futures": "0.0000173",
+      "Stock Futures": "0.0000173",
+      "Index Options": "0.0003503",
+      "Stock Options": "0.0003503"
+    },
+    "BSE": {
+      "Index Futures": "0.0000000",
+      "Stock Futures": "0.0000000",
+      "Index Options": "0.0003250",
+      "Stock Options": "0.0000500"
+    }
+  },
+  "ipft_rates": {
+    "NSE": {
+      "Index Futures": "0.0000010",
+      "Stock Futures": "0.0000010",
+      "Index Options": "0.0000050",
+      "Stock Options": "0.0000050"
+    },
+    "BSE": {
+      "Index Futures": "0.0000000",
+      "Stock Futures": "0.0000000",
+      "Index Options": "0.0000000",
+      "Stock Options": "0.0000000"
+    }
+  },
+  "stt_regimes": [
+    {
+      "regime_id": "historical_pre_oct_2024",
+      "name": "Pre-October 2024 Regime",
+      "effective_from": "2000-01-01",
+      "effective_to": "2024-09-30",
+      "is_verified": true,
+      "futures_sell_rate": "0.000125",
+      "options_sell_rate": "0.000625",
+      "summary": "Futures STT @ 0.0125% (sell), Options STT @ 0.0625% on premium (sell)."
+    },
+    {
+      "regime_id": "budget_2024_to_mar_2026",
+      "name": "Finance (No. 2) Act 2024 Regime",
+      "effective_from": "2024-10-01",
+      "effective_to": "2026-03-31",
+      "is_verified": true,
+      "futures_sell_rate": "0.000200",
+      "options_sell_rate": "0.001000",
+      "summary": "Futures STT @ 0.0200% (sell), Options STT @ 0.1000% on premium (sell)."
+    },
+    {
+      "regime_id": "budget_2026_statutory",
+      "name": "Union Budget 2026 Statutory Regime",
+      "effective_from": "2026-04-01",
+      "effective_to": "2099-12-31",
+      "is_verified": true,
+      "futures_sell_rate": "0.000500",
+      "options_sell_rate": "0.001500",
+      "summary": "Futures STT @ 0.0500% (sell), Options STT @ 0.1500% on premium (sell) w.e.f. 1 April 2026."
+    }
+  ],
+  "verified_date_max": "2027-03-31",
+  "statutory_reconciliation_note": "Effective 1 April 2026, the Government of India revised STT on F&O trades (Futures sell-side rate increased from 0.02% to 0.05%, Options sell-side premium rate increased from 0.10% to 0.15%). Broker pricing websites may lag statutory Gazette updates; this calculator reconciles and applies statutory rules on and after 1 April 2026."
+}
